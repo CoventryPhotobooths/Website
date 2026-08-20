@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+}
+
+h1 {
+	font-family: "Cormorant Garamond", Georgia, serif;
+	color: lightblue;
+	margin-left: 1px;
+}
+
+h2 {
+	font-family: "Cormorant Garamond", Georgia, serif;
+	font-style: italic;
+	color: lightblue;
+	margin-left: 1px;
+}
+
+h3 {
+	font-family: "Cormorant Garamond", Georgia, serif;
+	font-style: italic;
+	color: lightblue;
+	margin-left: 1px;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.Logo{
+	padding: 15px;
+	background: #333333;
+}
+
+.Nav {
+  background-color: #333333;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content:center;
+  overflow: hidden;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover {
+  background-color: #111111;
+}
+
+ul.nav li a.active {
+  background-color: lightblue;
+  color: black;
+}
+
+.Header{
+	height: 90vh;
+	padding: 5px;
+	text-align: center;
+	align-content: center;
+	background: #333333;
+	font-family: "Cormorant Garamond", Serif;
+}
+.Header > h1{
+	color: lightblue;
+	font-size:10vh;
+}
+.Header > h2{
+	color: white;
+	font-size: 6vh;
+	font-family: "Cormorant Garamond", italic;
+}
+
+.Left_Side_Image{
+	float: right;
+}
+.Right_Side_Text{
+	background: #777777;
+	float: left;
+	padding: 20px;
+}
+
+.Testimonies{
+	font-family: "Satisfy", cursive;
+	background: #333333;
+	color: lightblue;
+	float:left;
+}
+
+.btn-outline-info {
+    color: lightblue;
+    border-color: lightblue;
+}
+
+.btn-outline-info:hover{
+	color: black;
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.Mini_Gallery{
+	text-align: center;
+	align-content: center;
+	font-family: "Cormorant Garamond", Serif;
+	padding: 10px;
+	color: lightblue;
+}
+
+.Mini_Gallery_Inset{
+	text-align: center;
+	align-content: top;
+	font-family: "Cormorant Garamond", Serif;
+	background: #666666;
+	padding: 10px;
+	color: lightblue;
+	margin: 10px;
+	height: 100%;
+}
+
+.Mini_Gallery_Inset > a{
+	text-decoration: none;
+}
+
+.Book_Now{
+	padding: 5px;
+	text-align: center;
+	align-content: center;
+	background: #333333;
+	font-family: "Cormorant Garamond", Serif;
+}
+.Book_Now > h1{
+	color: lightblue;
+	font-size:6vh;
+}
+.Book_Now > h2{
+	color: white;
+	font-size: 3vh;
+	font-family: "Cormorant Garamond", italic;
+}
