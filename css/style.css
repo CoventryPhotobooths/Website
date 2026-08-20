@@ -186,17 +186,29 @@ ul.nav li a.active {
 .Footer{
 	background: black;
 	font-size: 18px;
-
+	font-family: "Satisfy", cursive;
+	color: #AAAAAA;
 }
 
 .Footer_Links > li{
 	text-decoration: none;
 	font-family: "Satisfy", cursive;
-	color: lightblue;
+	color: #AAAAAA;
 }
 
 .Footer_Links > li > a{
 	text-decoration: none;
 	font-family: "Satisfy", cursive;
-	color: lightblue;
+	color: #AAAAAA;
 }
+
+.copyright {
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+.copyright > a{
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
