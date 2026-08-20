@@ -22,6 +22,13 @@ h3 {
 	margin-left: 1px;
 }
 
+h4 {
+	font-family: "Cormorant Garamond", Georgia, serif;
+	font-style: italic;
+	color: lightblue;
+	margin-left: 1px;
+}
+
 p {
 	color: white;
 	font-size: 20px;
@@ -31,6 +38,10 @@ p {
 img {
   display: block;
   margin: auto;
+}
+
+.a{
+	text-decoration: none;
 }
 
 .Logo{
@@ -89,6 +100,15 @@ ul.nav li a.active {
 	color: white;
 	font-size: 6vh;
 	font-family: "Cormorant Garamond", italic;
+}
+
+.Header > a{
+	text-decoration: none;
+}
+
+.Header > a > h1{
+	color: lightblue;
+	font-size:10vh;
 }
 
 .Left_Side_Image{
@@ -156,4 +176,27 @@ ul.nav li a.active {
 	color: white;
 	font-size: 3vh;
 	font-family: "Cormorant Garamond", italic;
+}
+
+.Contact{
+	font-family: "Satisfy", cursive;
+	color: lightblue;
+}
+
+.Footer{
+	background: black;
+	font-size: 18px;
+
+}
+
+.Footer_Links > li{
+	text-decoration: none;
+	font-family: "Satisfy", cursive;
+	color: lightblue;
+}
+
+.Footer_Links > li > a{
+	text-decoration: none;
+	font-family: "Satisfy", cursive;
+	color: lightblue;
 }
