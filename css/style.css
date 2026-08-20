@@ -116,11 +116,27 @@ ul.nav li a.active {
 .Left_Side_Image{
 	float: right;
 }
+
+.Right_Side_Image{
+	float: left;
+}
+
 .Right_Side_Text{
 	background: #777777;
 	float: left;
 	padding: 20px;
 	border-radius: 20px;
+	height: 100%;
+	align-content: center;
+}
+
+.Left_Side_Text{
+	background: #777777;
+	float: right;
+	padding: 20px;
+	border-radius: 20px;
+	height: 100%;
+	align-content: center;
 }
 
 .Testimonies{
@@ -182,6 +198,10 @@ ul.nav li a.active {
 	color: white;
 	font-size: 3vh;
 	font-family: "Cormorant Garamond", italic;
+}
+
+.Book_Now > ul > h3 > li{
+	list-style-type: none;
 }
 
 .Contact{
