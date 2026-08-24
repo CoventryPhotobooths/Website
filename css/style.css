@@ -238,3 +238,9 @@ ul.nav li a.active {
 	text-decoration: none;
 }
 
+.Gallery_Image{
+	float: left;
+	margin-top: 20px;
+	background-size: cover;
+	cursor: zoom-in;
+}
