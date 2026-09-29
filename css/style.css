@@ -249,3 +249,21 @@ ul.nav li a.active {
 	text-align: center;
 	margin-top: 20px;
 }
+
+.ContactForm{
+	background: #333333;
+	color: lightblue;
+	padding: 20px;
+	border-radius: 20px;
+	height: 100%;
+	align-content: center;
+}
+
+.form-input{
+  width: 400px;
+}
+
+.form-textarea{
+  width: 400px;
+  height: 200px;
+}
